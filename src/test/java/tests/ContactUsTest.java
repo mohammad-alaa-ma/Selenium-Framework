@@ -3,6 +3,8 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.github.javafaker.Faker;
+
 import pages.ContactUsPage;
 import pages.HomePage;
 
@@ -11,7 +13,8 @@ public class ContactUsTest extends TestBase{
 	HomePage home;
 	ContactUsPage contactPage;
 	
-	String email = "test@gmail.com";
+	Faker fakeData = new Faker();
+	String email = fakeData.internet().emailAddress();
 	String fullName = "Test User";
 	String enquiry = "Hello, This is for test";
 	

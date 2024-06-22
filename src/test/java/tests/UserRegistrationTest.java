@@ -3,6 +3,8 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.github.javafaker.Faker;
+
 import pages.HomePage;
 import pages.LoginPage;
 import pages.UserRegistrationPage;
@@ -15,6 +17,12 @@ public class UserRegistrationTest extends TestBase
 	UserRegistrationPage registerObject;
 	LoginPage loginObject;
 	
+	Faker fakeData = new Faker();
+	String firstname = fakeData.name().firstName();
+	String lastname = fakeData.name().lastName();
+	String email = fakeData.internet().emailAddress();
+	String password = fakeData.number().digits(8).toString();
+	
 	
 	@Test(priority = 1, alwaysRun = true)
 	public void UserCanRegisterSuccessfully()
@@ -23,7 +31,7 @@ public class UserRegistrationTest extends TestBase
 		homeObject = new HomePage(driver);
 		homeObject.openRegisterationPage();
 		registerObject = new UserRegistrationPage(driver);
-		registerObject.userRegisteration("Mohammad", "Alaa", "testemail11@gmail.com", "12345678");
+		registerObject.userRegisteration(firstname, lastname, email, password);
 		Assert.assertTrue(registerObject.successMessage.getText().contains("Your registration completed"));
 	}
 	

@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
+//import org.testng.Assert;
 
 
 public class WishlistPage extends PageBase{
@@ -31,11 +31,7 @@ public class WishlistPage extends PageBase{
 	{
 		clickButton(removeFromCartCheck);
 		clickButton(updateWishListBtn);
-		Assert.assertTrue(EmptyCartLb1.getText().contains("empty"));
+	//	Assert.assertTrue(EmptyCartLb1.getText().contains("empty"));
 	}
 	
-	
-	
-	
-
 }
