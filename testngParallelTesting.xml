@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nopcommerce Regression Suite" parallel="tests" thread-count="2">
+
+  <test name="Chrome Regression Test 1">
+    <parameter  name="browser" value="chrome"> </parameter>
+    <classes>
+      <class name="tests.UserRegistrationParallelTesting"/>
+    </classes>
+  </test> 
+  
+  <test name="Chrome Regression Test 2">
+    <parameter  name="browser" value="chrome"> </parameter>
+    <classes>
+      <class name="tests.ContactUsParallelTesting"/>
+    </classes>
+  </test> 
+</suite> 
