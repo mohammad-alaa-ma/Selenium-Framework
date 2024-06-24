@@ -4,11 +4,15 @@ This project is a Selenium-based automation framework using Java, Maven, TestNG,
 
 ## Tech Stack
 
-- Java
+- Selenium Java
 - Maven
 - TestNG
 - BDD (Behavior-Driven Development)
 - DDT (Data-Driven Testing)
+- Headless Testing
+- Integrating Selenium scripts and Jenkins CI server
+- Selenium Grid
+- SauceLabs
 
 ## Features
 
