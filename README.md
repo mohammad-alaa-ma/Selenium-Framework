@@ -14,6 +14,7 @@ This project is a Selenium-based automation framework using Java, Maven, TestNG,
 - Selenium Grid
 - SauceLabs
 - Running Allure Reports With Selenium Framework
+- Running Selenium Test Using Jenkins file
 
 
 ## Technologies Overview
