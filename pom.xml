@@ -41,6 +41,8 @@
     </pluginManagement>
   </build>-->
   
+  
+ <!-- This section is added to make the output in target folder (surefire-reports)-->
   <build>
     <directory>${project.basedir}/target</directory>
     <outputDirectory>${project.build.directory}/classes</outputDirectory>
