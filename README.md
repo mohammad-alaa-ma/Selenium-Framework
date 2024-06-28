@@ -14,7 +14,8 @@ This project is a Selenium-based automation framework using Java, Maven, TestNG,
 - Selenium Grid
 - SauceLabs
 - Running Allure Reports With Selenium Framework
-- Running Selenium Test Using Jenkins file
+- Running Selenium Tests Using Jenkins Pipeline
+- Integrating Jenkins With Slack
 
 
 ## Technologies Overview
@@ -71,6 +72,19 @@ This project is a Selenium-based automation framework using Java, Maven, TestNG,
 - **Automated Testing**: Runs Selenium and Appium tests in the cloud.
 - **Parallel Testing**: Executes tests in parallel for faster feedback.
 - **Analytics and Reporting**: Offers detailed test reports and analytics for test results.
+
+ ### Running Allure Reports With Selenium Framework
+- **Test Reporting**: Integrates Allure Reports for comprehensive test reporting and visualization.
+- **Rich Insights**: Provides detailed information on test execution, failures, and trends.
+
+### Running Selenium Tests Using Jenkins Pipeline
+- **Automation Pipelines**: Executes Selenium tests using Jenkins pipelines for continuous integration.
+- **Configuration**: Configures Jenkins jobs to trigger Selenium test runs automatically.
+
+### Integrating Jenkins With Slack
+- **Notifications**: Integrates Jenkins with Slack to receive build and test notifications.
+- **Real-Time Updates**: Sends alerts and status updates to Slack channels for team visibility and collaboration.
+
 
 
 ## Installation
