@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="nopcommerce Regression Suite">
 <parameter  name="browser" value="chrome"> </parameter>
-  <test name="Regression Test" preserve-order="false">
+  <test name="Regression Test" preserve-order="true">
     <classes>
+      <class name="tests.ContactUsTest"/>
       <class name="tests.UserRegistrationTest"/>
       <class name="tests.SearchProductUsingAutoSuggest"/>
       <class name="tests.SearchProductTest"/>
-      <class name="tests.MyAccountTest"/>
-      <class name="tests.EmailFriendTest"/>
-      <class name="tests.ContactUsTest"/>
       <class name="tests.ChangeCurrencyTest"/>
       <class name="tests.AddProductToCompareTest"/>
+      <class name="tests.EmailFriendTest"/>
+      <class name="tests.MyAccountTest"/>
       <class name="tests.AddProductReviewTest"/>
     </classes>
   </test> 

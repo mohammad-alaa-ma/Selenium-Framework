@@ -3,6 +3,8 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.github.javafaker.Faker;
+
 import pages.EmailPage;
 import pages.HomePage;
 import pages.LoginPage;
@@ -20,11 +22,13 @@ public class EmailFriendTest extends TestBase
 		SearchPage searchObject;
 		ProductDetailsPage detailsObject;
 		EmailPage emailObject;
-		String firstName ="Mohammad";
-		String lastName ="Alaa";
-		String yourEmail = "testemail889@gmail.com";
-		String password = "12345678";
-
+		
+		Faker fakeData = new Faker();
+		String firstName = fakeData.name().firstName();
+		String lastName = fakeData.name().lastName();
+		String yourEmail = fakeData.internet().emailAddress();
+		String password = fakeData.number().digits(8).toString();
+		
 		// 1. User registration
 		
 		@Test(priority = 1, alwaysRun = true)

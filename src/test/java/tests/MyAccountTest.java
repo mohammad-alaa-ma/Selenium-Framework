@@ -3,6 +3,8 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.github.javafaker.Faker;
+
 import pages.HomePage;
 import pages.LoginPage;
 import pages.MyAccountPage;
@@ -14,13 +16,13 @@ public class MyAccountTest extends TestBase
 	UserRegistrationPage registerObject;
 	LoginPage loginObject;
 	MyAccountPage myAccountObject;
-	String oldPassword = "12345678";
-	String newPassword = "123456";
-	String firstName = "Mohammad";
-	String lastName = "Alaa";
-	String email = "test33@gmail.com";
 	
-	
+	Faker fakeData = new Faker();
+	String firstName = fakeData.name().firstName();
+	String lastName = fakeData.name().lastName();
+	String email = fakeData.internet().emailAddress();
+	String oldPassword = fakeData.number().digits(8).toString();
+	String newPassword = fakeData.number().digits(8).toString();
 	
 	@Test(priority = 1, alwaysRun = true)
 	public void UserCanRegisterSuccessfully()
