@@ -19,8 +19,8 @@ This project is a Selenium-based automation framework using Java, Maven, TestNG,
 
 ### Demos
 
-## Running most of Selenium Test cases
-https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/ace35b4b-f85b-426e-a625-39725fb6a2e9
+## Running Selenium Test cases
+https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/ef271894-e278-4b86-9a88-f38543b20a4b
 
 ## Integrating Selenium scripts and Jenkins CI Server 
 https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/6698926d-1b69-426e-b9a8-d68a4f2ac1da 
@@ -32,7 +32,7 @@ https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/f7aa36ce
 https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/a441b7a5-4def-456b-891b-10cc829f185d 
 
 ## Integrating Jenkins with Slack Notification
-https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/0f8968ca-f372-422a-85f5-667ad7e19f0a
+https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/30f887c1-4eb1-447b-b5a9-9b35b35c8630
 
 
 ## Technologies Overview
