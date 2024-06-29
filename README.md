@@ -17,6 +17,12 @@ This project is a Selenium-based automation framework using Java, Maven, TestNG,
 - Running Selenium Tests Using Jenkins Pipeline
 - Integrating Jenkins With Slack
 
+### Demos
+| ##Integrating Selenium scripts and Jenkins CI Server | ## Running scripts on cloud using SauceLabs | ## Run Allure Reports with Selenium Framework |
+| -------- | -------- | -------- |
+| https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/6698926d-1b69-426e-b9a8-d68a4f2ac1da | https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/f7aa36ce-128e-41dc-8884-d5564d0a3c89  | https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/a441b7a5-4def-456b-891b-10cc829f185d |
+
+
 
 ## Technologies Overview
 
@@ -84,9 +90,7 @@ This project is a Selenium-based automation framework using Java, Maven, TestNG,
 ### Integrating Jenkins With Slack
 - **Notifications**: Integrates Jenkins with Slack to receive build and test notifications.
 - **Real-Time Updates**: Sends alerts and status updates to Slack channels for team visibility and collaboration.
-
-### Running scripts on cloud using SauceLabs 
-https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/f7aa36ce-128e-41dc-8884-d5564d0a3c89
+  
 
 ## Installation
 
