@@ -85,7 +85,8 @@ This project is a Selenium-based automation framework using Java, Maven, TestNG,
 - **Notifications**: Integrates Jenkins with Slack to receive build and test notifications.
 - **Real-Time Updates**: Sends alerts and status updates to Slack channels for team visibility and collaboration.
 
-
+### Running scripts on cloud using SauceLabs 
+https://github.com/mohammad-alaa-ma/Selenium-Framework/assets/173278906/f7aa36ce-128e-41dc-8884-d5564d0a3c89
 
 ## Installation
 
@@ -95,3 +96,4 @@ To use this project, ensure you have Java and Maven installed. Clone the reposit
 git clone https://github.com/mohammad-alaa-ma/seleniumFramework.git
 cd your-repository
 mvn install
+
